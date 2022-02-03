@@ -1,6 +1,6 @@
 # AWS-China-Technical-Best-Practice
 
-### IAM users and policies
+## IAM users and policies
 
 No concept of “root” or “account” user or credentials. All users are IAM users, including the user who created the account.
 
@@ -12,8 +12,8 @@ arn:aws-cn:iam::123456789012:user/ericademo
 
 The detail is https://docs.amazonaws.cn/en_us/aws/latest/userguide/ARNs.html
 
-### Set up CLI and SDK
-**AWS CLI and SDK are same with global regions**。
+## Set up CLI and SDK
+**AWS CLI and SDK are same with global regions**  
 https://aws.amazon.com/cli  
 https://aws.amazon.com/tools/  
 
@@ -21,7 +21,7 @@ https://aws.amazon.com/tools/
 Beijing: cn-north-1  \
 Ningxia: cn-northwest-1
 
-### Service Endpoint access
+## Service Endpoint access
 
 servicename.cn-north-1.amazonaws.com.cn  
 servicename.cn-northwest-1.amazonaws.com.cn 
