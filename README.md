@@ -4,7 +4,7 @@
 
 No concept of “root” or “account” user or credentials. All users are IAM users, including the user who created the account.
 
-Amazon Resource Name (ARN) syntax
+**Amazon Resource Name (ARN) syntax**  
 
 ARN includes the aws-cn partition for resources in the region. For example:  
 
@@ -13,11 +13,11 @@ arn:aws-cn:iam::123456789012:user/ericademo
 The detail is https://docs.amazonaws.cn/en_us/aws/latest/userguide/ARNs.html
 
 ### Set up CLI and SDK
-AWS CLI and SDK are same with global regions  
+**AWS CLI and SDK are same with global regions**。
 https://aws.amazon.com/cli  
 https://aws.amazon.com/tools/  
 
-China Region name \
+**China Region name** \
 Beijing: cn-north-1  \
 Ningxia: cn-northwest-1
 
